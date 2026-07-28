@@ -2,11 +2,11 @@
 # statements like if, elif, and else.
 
                  # Simple Condition 
-"""
+
 age = 18 
 if age >= 18:
   print ("You are an adult." )
-
+#--------------------------------------------------------------
             # Using  if and else condition :
 
 number = int(input("Enter the number :")) 
@@ -14,7 +14,7 @@ if number % 2==0:
   print ("Number is Even. ")
 else:  
   print  ("Number is Odd. ") 
-
+#--------------------------------------------------------------------
 #   Exam Pass or Fail
 #Rule:
 
@@ -26,7 +26,7 @@ if marks >=50:
   print("Pass")
 else:
   print("Fail")  
-"""
+#-----------------------------------------------------------------
   # Multiple Condition :
 
  # AND
@@ -39,7 +39,7 @@ if age >= 18 and citizen == True:
   print ("You are an Eligible . ")
 else:
   print ("You are not Eligible .")  
-
+#-------------------------------------------------------------------
    #  OR
 #Agar student ke paas ID card OR Admit Card hai → Entry allowed.
 id_card = False
@@ -48,7 +48,7 @@ if id_card == True or admit_card == True:
   print ("Entry allowed")
 else:
   print ("Not allowed")
-
+#--------------------------------------------------------------------
   # NOT 
 rain = True
 

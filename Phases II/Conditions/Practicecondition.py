@@ -1,9 +1,10 @@
 #Practice Question for IF,ELIF,ELSE: Condition 
 # Age input lo:
-"""
+
 # Below 13 → Child
 # 13–19 → Teenager
 # 20+ → Adult
+#-----------------------------------------------------------------
 age = int(input("Enter the age : "))
 if age >= 21:
     print ("Adult")
@@ -11,7 +12,7 @@ elif age >=  13:
     print ("Teenager")  
 else:
     print("Child")  
-
+# --------------------------------------------------------------------
 # Second Task :
 age = int(input("Enter the age : "))
 
@@ -24,9 +25,7 @@ elif age >= 13:
 else:
     print("Child")   
 
-
-
-
+#------------------------------------------------------------------------
 # task 3 pratice question condition if, elif or else:
 
 marks = int(input("Enter your marks: "))
@@ -47,7 +46,7 @@ else:
 print("Marks:", marks)
 print("Percentage:", percentage, "%")
 print("Grade:", grade)
-
+#---------------------------------------------------------------------
 #  Q .4 Positive ,Negative or Zero 
 number = int(input("Enter the number :"))
 if number > 0:
@@ -56,7 +55,7 @@ elif number < 0:
     print ("Number is Negative.")
 else:
     print ("Number is Zero.")  
-
+#--------------------------------------------------------------------
 # Question 5 Temperature 
 temperature = int(input("Enter the Temperature:"))
 if temperature  >=32:
@@ -65,23 +64,23 @@ elif temperature >= 20:
     print ("Temperature is Normal.")
 else:
     print("Cold")        
-"""                
+               
+#----------------------------------------------------------------------
 
+    #Largest of three Numbers
+a= int(input("Enter first number:"))
+b= int (input("Enter Second number:"))
+c= int(input("Enter the Third number:"))
 
-# Largest of two Numbers
-# a= int(input("Enter first number:"))
-# b= int (input("Enter Second number:"))
-# c= int(input("Enter the Third number:"))
-
-# if a>b & a>c:
-#    print ("Largest number is :" ,a  )
-# elif b>c & b>a:
-#    print("Largest number is :" , b) 
-# elif c>a & c>b:
-#    print ("Largest number is :", c)   
-# else:
-#    print("no largest number find out ")     
-
+if a>b & a>c:
+   print ("Largest number is :" ,a  )
+elif b>c & b>a:
+   print("Largest number is :" , b) 
+elif c>a & c>b:
+   print ("Largest number is :", c)   
+else:
+   print("no largest number find out ")     
+#------------------------------------------------------------------------
 
 # Question : 6
 # Simple Calculator:

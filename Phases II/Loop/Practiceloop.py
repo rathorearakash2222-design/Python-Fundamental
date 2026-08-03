@@ -31,10 +31,10 @@ number = int(input("Enter the Table Number :"))
 for i in range (1,11):
     print(i * number)
 #-----------------------------------------------------------------
-# Q .8)1 se 10 tak numbers ka sum nikalo. sum = 0
-for i in range (1,11):
-    sum = sum + i
-    print (sum)
+# # Q .8)1 se 10 tak numbers ka sum nikalo. sum = 0
+# for i in range (1,11):
+#     sum = sum + i
+#     print (sum)
 #-----------------------------------------------------------------
 #  Q .9)1 se 100 tak numbers ka sum nikalo.  
 total = 0

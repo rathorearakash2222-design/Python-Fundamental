@@ -8,7 +8,6 @@ for number in range(1, 101):
     if count == 2:
 
      print(number)
-
 # n = int(input("Enter a number: "))
 
 # count = 0

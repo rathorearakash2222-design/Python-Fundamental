@@ -1,0 +1,51 @@
+# Practice Question 
+#Q .1
+numbers = [10,20,30,40]
+for number in numbers:
+    print(number)
+
+#Q.2
+colors =["Red","Yellow","Green","Blue"]  
+
+i =0
+while i < len(colors): 
+     print(colors[i])
+     i += 1
+
+#Q .3
+cities = ["Indore", "Bhopal", "Delhi"]
+
+for i in range(len(cities)):
+    print(i, cities[i])
+
+#Q .4
+numbers = [10, 20, 30, 40, 50]
+total =  0
+for num in numbers:
+    total += num
+print("Sum :",total) 
+
+
+#Q. 5
+numbers = [12, 45, 8, 90, 33]
+print(max(numbers))
+
+#Q.6
+numbers = [12, 45, 8, 90, 33]
+print(min(numbers))
+
+
+#Q .7
+marks = [75, 80, 90, 85]
+   
+for mark in marks:
+    print(mark)
+
+
+#Q.8  
+names =["Akash","Rahul","Rohan"]
+
+for i in range(len(names)): 
+    print("Student :",names[i]) 
+
+#Q .9    

@@ -1,0 +1,32 @@
+students = [
+    ["Akash", 85],
+    ["Rahul", 90],
+    ["Rohan", 78]
+]
+
+print(students)
+
+
+students = [
+    ["Akash", 85],
+    ["Rahul", 90],
+    ["Rohan", 78]
+]
+
+print(students[0])
+print(students[1])
+
+
+# 3. Particular Element Access Karna
+
+#Syntax:
+#list_name[row][column]
+students = [
+    ["Akash", 85],
+    ["Rahul", 90],
+    ["Rohan", 78]
+]
+
+print(students[0][0])   # Akash
+print(students[0][1])   # 85
+print(students[2][0])   # Rohan

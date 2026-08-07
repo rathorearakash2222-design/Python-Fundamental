@@ -1,0 +1,3 @@
+student = ("Akash", 21, "MCA")
+
+print(student)

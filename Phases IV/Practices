@@ -1,0 +1,62 @@
+# matrix =[[
+#     [2,1,3],
+#     [1,1,1],
+#     [2,2,2]],
+#     [
+#     [1,1,1],
+#     [2,2,1],
+#     [2,1,1]]]
+
+# for row in matrix:
+#  print(row)
+# # Question : 1 - Print the complete first row
+# students = [
+#     ["Akash", 85],
+#     ["Rahul", 90]
+# ]
+
+# print(students[0])   # Akash
+
+
+# # Question : 2 - Print only Rahul
+# students = [
+#     ["Akash", 85],
+#     ["Rahul", 90]
+# ]
+
+# print(students[1][0])   # Akash
+
+# #Question : 3 - Print only 85
+# students = [
+#     ["Akash", 85],
+#     ["Rahul", 90]  
+# ]
+
+# print(students[0][1])   # Akash
+
+# Question : 4 - Print all rows using a for loop 
+matrix =[
+ [1,2],
+ [3,4]
+]
+
+for row in matrix:
+    print(row)
+
+# Question : 5 - Print all elements using nested for loop
+matrix = [
+ [1,2],
+ [3,4]] 
+
+for row in matrix:
+   for value in row:
+       print(value,end =" ")
+   print() 
+
+# Question : 6- print only 50
+matrix = [
+  [10,20,30],
+  [40,50,60]] 
+
+print(matrix[1][1])
+

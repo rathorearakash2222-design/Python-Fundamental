@@ -1,3 +1,4 @@
+# Nested List  == ek list ke andar doosri list ==
 students = [
     ["Akash", 85],
     ["Rahul", 90],
@@ -6,7 +7,7 @@ students = [
 
 print(students)
 
-
+#Row Access Karna ==
 students = [
     ["Akash", 85],
     ["Rahul", 90],

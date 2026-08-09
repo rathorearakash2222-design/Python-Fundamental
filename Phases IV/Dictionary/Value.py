@@ -8,7 +8,7 @@ print(student)
 
 
 
-# Value Access Karna
+#Dictionary se Value Access Karna
 student = {
     "name": "Akash",
     "age": 21,
@@ -16,5 +16,5 @@ student = {
 }
 
 print(student["name"])
-print(student["age","course"])
+print(student["age"])
 

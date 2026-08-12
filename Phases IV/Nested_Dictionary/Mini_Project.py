@@ -15,28 +15,56 @@ while True:
     print("4. Student Delete")
     print("5. All Students Display")
     print("6. Highest Marks")
-    print("7. Average Marks")
-    print("8. Exit")
+    print("7. Lowest Marks ")
+    print("8. Average Marks")
+    print("9. Exit")
 
     choice = input("Enter your choice: ")
 
     if choice == "1":
+      name = input("Enter student name: ")
 
-        name = input("Enter student name: ")
+      if not name:
+        print("Student name cannot be empty!")
+
+      else:
         marks = int(input("Enter student marks: "))
 
-        if name in students:
-            print("Student already exists!")
+        if marks < 0 or marks > 100:
+          print("Marks must be between 0 and 100!")
+
+        elif name in students:
+           print("Student already exists!")
+
         else:
-            students[name] = marks
-            print("Student added successfully!")
+         students[name] = marks
+         print("Student added successfully!")
 
     elif choice == "2":
 
         name = input("Enter student name: ")
 
         if name in students:
-            print("Marks:", students[name])
+            marks = students[name]
+            print("Marks:", marks)
+
+            if marks >= 90:
+              print("Grade: A+")
+            elif marks >= 80:
+              print("Grade: A")
+            elif marks >= 70:
+              print("Grade: B")
+            elif marks >= 60:
+              print("Grade: C")
+            elif marks >= 50:
+              print("Grade: D")
+            else:
+              print("Grade: F")
+
+            if marks >= 40:
+              print("Status: Pass")
+            else:
+              print("Status: Fail")
         else:
             print("Student not found!")
 
@@ -63,14 +91,33 @@ while True:
 
     elif choice == "5":
 
-        if not students:
-            print("No students available!")
-        else:
-            print("\n===== ALL STUDENTS =====")
+       if not students:
+        print("No students available!")
+       else:
+        print("\n===== ALL STUDENTS =====")
 
-            for name, marks in students.items():
-                print(name, ":", marks)
+        for name, marks in students.items():
 
+            print("\nName:", name)
+            print("Marks:", marks)
+
+            if marks >= 90:
+                print("Grade: A+")
+            elif marks >= 80:
+                print("Grade: A")
+            elif marks >= 70:
+                print("Grade: B")
+            elif marks >= 60:
+                print("Grade: C")
+            elif marks >= 50:
+                print("Grade: D")
+            else:
+                print("Grade: F")
+
+            if marks >= 40:
+                print("Status: Pass")
+            else:
+                print("Status: Fail")
     elif choice == "6":
 
         if not students:
@@ -80,9 +127,20 @@ while True:
 
             print("\n===== HIGHEST MARKS =====")
             print("Student:", highest_student)
-            print("Marks:", students[highest_student])
+            print("Marks:", students[highest_student])  
 
     elif choice == "7":
+
+       if not students:
+        print("No students available!")
+       else:
+        lowest_student = min(students, key=students.get)
+
+        print("\n===== LOWEST MARKS =====")
+        print("Student:", lowest_student)
+        print("Marks:", students[lowest_student])
+
+    elif choice == "8":
 
         if not students:
             print("No students available!")
@@ -93,7 +151,7 @@ while True:
             print("\n===== AVERAGE MARKS =====")
             print("Average Marks:", average)
 
-    elif choice == "8":
+    elif choice == "9":
 
         print("Thank you for using Student Marks Management System!")
         break

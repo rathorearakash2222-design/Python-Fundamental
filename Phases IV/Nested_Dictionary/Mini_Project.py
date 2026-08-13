@@ -150,7 +150,14 @@ while True:
 
             print("\n===== AVERAGE MARKS =====")
             print("Average Marks:", average)
-
+        if average >= 75:
+            print("Class Performance: Excellent")
+        elif average >= 60:
+            print("Class Performance: Good")
+        elif average >= 40:
+            print("Class Performance: Average")
+        else:
+            print("Class Performance: Needs Improvement")
     elif choice == "9":
 
         print("Thank you for using Student Marks Management System!")

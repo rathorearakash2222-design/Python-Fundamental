@@ -1,0 +1,25 @@
+# #Day 4  Reverse String
+# text = "Python"
+
+# print(text[::-1])
+
+
+# #Reverse using for loop
+# text = "Python"
+# reverse = ""
+
+# for char in text:
+#     reverse = char + reverse
+
+# print(reverse)
+
+text = "Aakash Rathore"
+
+reverse = "".join(reversed(text))
+
+print(reverse)
+
+
+
+word = "Programming "
+print (word[::-1])
